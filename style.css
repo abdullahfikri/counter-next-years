@@ -62,3 +62,31 @@ body * {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .format {
+    font-size: 1.2rem;
+  }
+  .big-text {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .format {
+    font-size: 1rem;
+  }
+  .big-text {
+    font-size: 2rem;
+  }
+  .count-container h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .count-c {
+    padding: 0 5px;
+  }
+}
